@@ -1,0 +1,79 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0px auto;
+}
+.contents {
+    display: flex;
+    display: -webkit-flex;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #222;
+    border: 0px white solid;
+}
+.text {
+    color: white;
+    font-size: 25px;
+    padding-bottom: 50%;
+    word-break: break-all;
+}
+.clock-container {
+    height: 360px;
+    width: 360px;
+    background: black;
+}
+.time-text {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.date-text {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.texts-container {
+    margin: auto;
+    padding-top: 35%;
+}
+p {
+    margin: 0px;
+}
+.s-text-container {
+    padding: 10px;
+}
+.dislpay-status-container {
+    padding: 15px;
+}
+#dislpay-status {
+    color: white;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 35%;
+}
+.hide-data {
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 20%;
+/*     background: red; */
+    left: 0px;
+}
+.show-data {
+    position: fixed;
+    top: 0px;
+   height: 100%;
+    width: 20%;
+/*     background: blue; */
+    right: 0px;
+}
+.refresh-page{
+	position: fixed;
+	top: 0px;
+	left:0px;
+	width : 100%;
+	height: 20%;
+/* 	background: yellow; */
+}
